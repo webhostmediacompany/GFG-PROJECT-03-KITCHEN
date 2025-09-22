@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Menu</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
+  body {
             font-family: 'Inter', sans-serif;
             background-color: #1a1a1a;
             display: flex;
@@ -113,7 +100,7 @@ margin-top: 25px  #59442f;
 
         /* Active category style */
         .category-item.active {
-            background-color: #852833;
+            background-color: #6c1f28;
             /* Primary BG */
             border: 0px;
             border-right-color: #852833;
@@ -126,7 +113,7 @@ margin-top: 25px  #59442f;
             background-color: #a23749;
             /* Primary BG */
             height: auto;
-            /* Adjusted for better visibility */
+            padding-left: 2px;
             border-left-style:  #a73c4e;
             background-size: 6px 6px;
         }
@@ -225,76 +212,3 @@ margin-top: 25px  #59442f;
             margin-right: -50px;
             margin-top: -60px;
         }
-    </style>
-</head>
-
-<body>
-    <div class="menu-container">
-
-        <header>
-            <div class="icons-left">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-utensils"></i>
-                <i class="fa-solid fa-wine-glass"></i>
-            </div>
-            <div class="icon-right">
-                <i class="fa-solid fa-search"></i>
-            </div>
-        </header>
-
-        <div class="main-content">
-            <nav>
-                <ul>
-                    <li class="category-item">Thali Items</li>
-                    <li class="category-item active">Chicken (Dry)</li>
-                    <li class="category-item">Chicken (Gravy)</li>
-                    <li class="category-item">Tandoori Items</li>
-                    <li class="category-item">Mutton (Dry)</li>
-                    <li class="category-item">Mutton (Gravy)</li>
-                    <li class="category-item">Biryani & Rice</li>
-                    <li class="category-item">Fried Rice</li>
-                    <li class="category-item">Soup</li>
-                    <li class="category-item">Noodles</li>
-                    <li class="category-item">Eggs</li>
-                    <li class="category-item">Fish (Dry)</li>
-                    <li class="category-item" style="opacity:0.3">Fish (Gravy)</li>
-                </ul>
-            </nav>
-
-            <main>
-                <ul>
-                    <li>Empire Chicken Kebab</li>
-                    <li>Chicken Manchurian</li>
-                    <li>Chilly Chicken</li>
-                    <li>Chilly Lollypop</li>
-                    <li>Chilly 65</li>
-                    <li>Pepper Chicken</li>
-                    <li>Chicken Lemon</li>
-                    <li>Garlic Chicken</li>
-                    <li>Chicken Tomato Fry</li>
-                    <li style="opacity:0.3">Chicken Kheema</li>
-                </ul>
-                <!-- <button class="done-btn" style ="float:right;"> <img src="./Assets/done button-Photoroom.png" alt="" ></button> -->
-
-
-            </main>
-        </div>
-
-        <footer>
-            <div class="table-badge">
-                <a href="#">
-                    <image src="./Assets/tabel button-Photoroom.png" alt="tabel button" style="transform: scale(0.6); width:170px;height: 150px;padding-bottom: 20px;">
-                </a>
-            </div>
-            <div class="done-btn1">
-                <a href="#">
-                    <image src="./Assets/done button-Photoroom.png" alt="done button" style=" width:135px;height:125px;">
-                </a>
-            </div>
-
-
-        </footer>
-    </div>
-</body>
-
-</html>
